@@ -2,21 +2,19 @@
 public class Main {
 
 	public static void main(String[] args) {
-		int a=20;
-		int b=25;
-		int c=30;
-		int EB=a;
-		
-		if(EB<b)
-		{
-			EB=b;
-		}
-		if(c>EB)
-		{
-			EB=c;
-		}
-		System.out.println("en büyük sayi= " + EB);
+		Scanner inp=new Scanner(system.in);
+		int s1;
+		int s2;
+		int t;
 
+		system.out.println("ilk sayiyi giriniz");
+		s1=input.nextİnt()
+		system.out.println("ikinci sayiyi giriniz");
+		s2=input.nextİnt()
+
+				t=s1+s2
+
+		system.out.println("%d",t);
 }
 
 }
